@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.box {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.photo-card {
+    width: 100px;
+    height: 300px;
+    flex: 1;
+    transition: all 0.9s ease-in-out;
+}
+
+.photo-card img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.photo-card:hover {
+    background-color: aqua;
+    flex: 3;
+}
